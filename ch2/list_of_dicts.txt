@@ -1,0 +1,18 @@
+[
+ {
+  "name": "photo1.jpg",
+  "tags": {'coffee', 'breakfast', 'drink', 'table', 'tableware', 'cup', 'food'}
+ },
+ {
+  "name": "photo2.jpg",
+  "tags": {'food', 'dish', 'meat', 'meal', 'tableware', 'dinner', 'vegetable'}
+ },
+ {
+  "name": "photo3.jpg",
+  "tags": {'city', 'skyline', 'cityscape', 'skyscraper', 'architecture', 'building', 'travel'}
+ },
+ {
+  "name": "photo4.jpg",
+  "tags": {'drink', 'juice', 'glass', 'meal', 'fruit', 'food', 'grapes'}
+ }
+]
