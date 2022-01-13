@@ -1,0 +1,3 @@
+Today, robots can talk to humans using natural language, and they’re getting smarter. Even so, very few people understand how these robots work or how they might use these technologies in their own projects.
+
+Natural language processing (NLP) – a branch of artificial intelligence that helps machines understand and respond to human language – is the key technology that lies at the heart of any digital assistant product. 
