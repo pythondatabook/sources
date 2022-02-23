@@ -1,2 +1,2 @@
-# Python Data Science by Example sources
-This repository contains the source files (scripts and input data files) discussed in the [Python Data Science by Example](https://nostarch.com/python-data-science) book.
+# Python for Data Science sources
+This repository contains the source files (scripts and input data files) discussed in the [Python for Data Science](https://nostarch.com/python-data-science) book.
