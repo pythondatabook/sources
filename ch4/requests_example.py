@@ -1,3 +1,4 @@
+# pp 67
 import requests
 r = requests.get('http://localhost/excerpt.txt')
 for i, line in enumerate(r.text.split('\n')):
