@@ -1,4 +1,4 @@
-# pp 38
+# pp 38 - 39
 
 import numpy as np
 jeff_salary = [2700,3000,3000]
