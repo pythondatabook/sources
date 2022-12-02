@@ -1,3 +1,4 @@
+# pp 65
 import urllib3
 http = urllib3.PoolManager()
 r = http.request('GET', 'http://localhost/excerpt.txt')
