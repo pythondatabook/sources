@@ -1,0 +1,7 @@
+# pp 76
+
+# $ mysql -uroot -p
+
+ALTER USER 'root'@'localhost' IDENTIFIED BY 'your_new_pswd';
+CREATE DATABASE sampledb;
+USE sampledb;
