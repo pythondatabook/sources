@@ -19,3 +19,8 @@ CREATE TABLE orders (
  PRIMARY KEY (pono),
  FOREIGN KEY (empno) REFERENCES emps (empno)
 );
+CREATE TABLE stocks(
+ ticker VARCHAR(10),
+ date VARCHAR(10),
+ price DECIMAL(15,2)
+);
