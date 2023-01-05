@@ -18,3 +18,5 @@ print(salary_bonus)
 print(np.amax(salary_bonus, axis = 0))
 
 print(np.amax(np.amax(salary_bonus, axis = 0)))
+
+print(np.average(np.amax(salary_bonus, axis = 0)))
