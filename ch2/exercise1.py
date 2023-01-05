@@ -23,9 +23,10 @@ def intersection(lst1, lst2):
   return "_".join([value for value in lst1 if value in lst2]) 
   
 photo_groups = {}
-for i in range(0, len(l)-1):
-  for j in range(i+1,len(l)):
-    lst = intersection(l[i]["tags"],l[j]["tags"])
+for i in range(1, len(l)):
+  for j in range(i+1,len(l)+1):
+    print(f"Intersecting photo {i} with photo {j}")
+    lst = intersection(l[i-1]["tags"],l[j-1]["tags"])
     if lst: 
-      k = photo_groups.setdefault(lst, list((l[i]["name"], l[j]["name"])))  
+      k = photo_groups.setdefault(lst, list((l[i-1]["name"], l[j-1]["name"])))  
 print(photo_groups)
