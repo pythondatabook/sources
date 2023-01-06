@@ -1,0 +1,10 @@
+transactions = [
+ ['curd', 'sour cream'], ['curd', 'orange', 'sour cream'],
+ ['bread', 'cheese', 'butter'], ['bread', 'butter'], ['bread', 'milk'],
+ ['apple', 'orange', 'pear'], ['bread', 'milk', 'eggs'], ['tea', 'lemon'],
+ ['curd', 'sour cream', 'apple'], ['eggs', 'wheat flour', 'milk'],
+ ['pasta', 'cheese'], ['bread', 'cheese'], ['pasta', 'olive oil', 'cheese'],
+ ['curd', 'jam'], ['bread', 'cheese', 'butter'],
+ ['bread', 'sour cream', 'butter'], ['strawberry', 'sour cream'],
+ ['curd', 'sour cream'], ['bread', 'coffee'], ['onion', 'garlic']
+]
