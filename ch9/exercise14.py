@@ -20,8 +20,15 @@ polygons = {'poly1': poly1, 'poly2': poly2}
 cabs = {'cab_26': cab_26, 'cab_112': cab_112}
 for poly_name, poly in polygons.items():
   cabs_dict[poly_name] = []
-  for cab_name, cab in cabs.items():
-    if cab.within(poly):
-      cabs_dict[poly_name].append(cab_name)
+  if pick_up.within(poly):
+    for cab_name, cab in cabs.items():
+      if cab.within(poly):
+        cabs_dict[poly_name].append(cab_name)  
+    break
 
-print(cabs_dict)
+from geopy.distance import distance
+dists = {}
+for cab in next(iter(cabs_dict.values())):
+  dists[str(cab)] = int(distance((pick_up.x, pick_up.y), (cabs[cab].x, cabs[cab].y)).m)
+
+max(dists, key=dists.get)
